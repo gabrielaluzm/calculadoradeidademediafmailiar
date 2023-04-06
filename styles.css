@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(#ffcccb, #ff6b6b);
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label, input, button {
+    margin-right: 10px;
+}
+
+#resultado {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
